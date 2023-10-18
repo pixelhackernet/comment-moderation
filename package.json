@@ -1,0 +1,22 @@
+{
+    "name": "comment_moderation",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pixelhackernet/comment-moderation.git"
+    },
+    "author": "Reece Harris <reeceharris@email.com>",
+    "bugs": {
+        "url": "https://github.com/pixelhackernet/comment-moderation/issues"
+    },
+    "homepage": "https://www.pixelhacker.net",
+    "dependencies": {
+        "bad-words": "^3.0.4",
+        "emailvalid": "^1.0.4",
+        "mailchecker": "^5.0.9"
+    }
+}
