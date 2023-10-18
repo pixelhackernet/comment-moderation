@@ -16,7 +16,6 @@
     "homepage": "https://www.pixelhacker.net",
     "dependencies": {
         "bad-words": "^3.0.4",
-        "emailvalid": "^1.0.4",
         "mailchecker": "^5.0.9"
     }
 }
