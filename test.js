@@ -13,8 +13,8 @@ const tests = [
     },
     {
         name: 'SkankHunt42',
-        email: 'gerald@sp.cn',
-        comment: 'Fuck you, retard!'
+        email: 'gerald@sp.ca',
+        comment: 'Fuck you, retard!' // Should return 0 due to hardban word
     }
 ]
 
