@@ -2,5 +2,6 @@
     "perBadWord": 10,
     "emailInvalid": 30,
     "badwordInName": 50,
-    "wordSpam": 20
+    "wordSpam": 20,
+    "minimumWords": 5
 }

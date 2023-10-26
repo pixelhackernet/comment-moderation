@@ -1,4 +1,5 @@
 {
     "wordSpamCount": 5,
-    "wordSimilarity": 0.6
+    "wordSimilarity": 0.6,
+    "minimumWords": 4
 }

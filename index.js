@@ -103,6 +103,9 @@ function rate (comment, name, email) {
     if (nameOffensive(name)) score -= scores.badwordInName; // Name is offensive
     if (wordSpam(comment.toLocaleLowerCase())) score -= scores.wordSpam; // Words are reused
 
+    const words = comment.replace(/[^\w\s]/g, ' ').replace(/ +/g, ' ').trim().split(' ');
+    if (words.length <= thresholds.minimumWords) score -= scores.minimumWords;
+
     return score;
 }
 
