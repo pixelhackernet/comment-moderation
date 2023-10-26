@@ -1,4 +1,4 @@
-# Autonomous Comment Moderation
+# Autonomous Comment Spam Rating (acpr)
 Welcome to our efficient and rapid comment moderation system, designed to seamlessly sort comments into two distinct categories: those that are entirely clean and those that may necessitate manual moderation. The categorization process is based on an in-depth analysis of the comment's content, the user's email, and the user's username.
 
 ## Usage
