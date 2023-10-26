@@ -1,0 +1,6 @@
+{
+    "perBadWord": 10,
+    "emailInvalid": 30,
+    "badwordInName": 50,
+    "wordSpam": 20
+}
